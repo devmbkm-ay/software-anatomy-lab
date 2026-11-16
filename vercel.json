@@ -1,0 +1,5 @@
+{
+  "framework": null,
+  "buildCommand": "mkdir -p public && cp index.html jobboard_moteur_logiciel.mp4 public/",
+  "outputDirectory": "public"
+}
