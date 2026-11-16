@@ -1,0 +1,27 @@
+SOFTWARE ANATOMY LAB — V0.3
+Learn software like an engineer learns a machine.
+
+OUVRIR
+Décompresser et ouvrir index.html dans un navigateur (aucune installation).
+Alternativement, depuis le dossier, utiliser python3 -m http.server 8000 et ouvrir http://localhost:8000.
+Le fichier HTML autonome fourni séparément contient aussi le MP4 intégré.
+La vidéo V0.2 conserve sa piste synthétique, coupée par défaut.
+
+ATELIER 09
+Mission : sélectionner une ligne, écrire sa prédiction, puis avancer dans les 7 étapes.
+Sources & AST : 28 unités couvrant 12 fichiers, 1 660 nœuds extraits par le parseur TypeScript 5.8.3.
+Micro-banc : find, map, filter, formatDate et copie de formulaire. Calculs JS sur des données isolées.
+Carnet : notes locales et export JSON. Selon le navigateur, le stockage local peut être bloqué à file:// ; utiliser localhost si nécessaire, et exporter les notes.
+Les 8 ateliers V0.2 restent accessibles.
+
+PROVENANCE ET LIMITES
+Dépôt : https://github.com/devmbkm-ay/jobboard/tree/52c514258a5c2fd433df4c9eddf91fce8f14cca7
+Extraits sélectionnés et transcrits depuis les fichiers lus sur GitHub ; certains fragments JSX ont été remis en forme ou enveloppés uniquement pour leur analyse. Cinq petits fichiers complets ont été vérifiés via leur identifiant Git blob. Références au commit ; pas une copie exhaustive du dépôt ni une liaison GitHub en direct.
+Le parseur analyse la syntaxe des fragments, pas le projet TypeScript complet. La mission est une chronologie scénarisée, pas une trace issue de React. Les données de la capture utilisent des identifiants fictifs. Le dépôt Jobboard n'est pas modifié.
+
+CONSTRUIRE (optionnel)
+index.html est déjà construit. Pour régénérer : npm install --no-save typescript@5.8.3 ; node build-catalog.cjs catalog.json ; python3 build.py.
+base-v02.html est le socle ; addon.css et addon.js sont le nouvel atelier ; catalog.json contient les sources et leurs AST générés.
+
+VÉRIFICATIONS
+Syntaxe JS, absence de diagnostics de parsing sur les fragments, navigation des 9 ateliers, mission complète et révélation conditionnelle, inspection AST, expériences find absent/map/handleChange, export carnet : testés avec Chromium en chargeant le HTML en mémoire. L'ouverture directe du fichier et le stockage persistant après rechargement n'ont pas pu être vérifiés dans l'environnement de test, qui bloque la navigation ; aucun build du vrai projet Next.js n'a été exécuté.

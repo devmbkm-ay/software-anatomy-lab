@@ -1,0 +1,15 @@
+{
+  "name": "software-anatomy-lab",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Laboratoire pédagogique de dissection et d'expérimentation logicielle",
+  "scripts": {
+    "dev": "python3 -m http.server 8000 --bind 127.0.0.1",
+    "catalog": "node build-catalog.cjs catalog.json",
+    "build": "npm run catalog && python3 build.py",
+    "check": "node --check addon.js && node --check build-catalog.cjs"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
