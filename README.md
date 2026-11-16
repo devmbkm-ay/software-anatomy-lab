@@ -47,7 +47,7 @@ TypeScript 5.8.3 est utilisé pour parser les fragments. `npm run build` régén
 
 Observer → prédire → disséquer → expérimenter → expliquer → reconstruire.
 
-Mission 001 : du clic sur une ligne à l'affichage du DetailDrawer. Le laboratoire distingue les atomes, expressions, fonctions, composants, interactions et système.
+Mission 001 : du clic sur une ligne à l'affichage du DetailDrawer. L’atelier 09 explicite trois repères : le parcours des neuf ateliers, les six échelles du code (atome, expression, fonction, composant, interaction, système) et les sept étapes de la mission. Les analogies mécaniques sont facultatives et ouvertes à la demande. Un palier guidé permet de prédire puis observer l’effet d’un identifiant trouvé ou absent.
 
 ## Provenance et confidentialité
 

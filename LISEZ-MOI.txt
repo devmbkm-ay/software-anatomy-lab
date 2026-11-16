@@ -8,9 +8,10 @@ Le fichier HTML autonome fourni séparément contient aussi le MP4 intégré.
 La vidéo V0.2 conserve sa piste synthétique, coupée par défaut.
 
 ATELIER 09
-Mission : sélectionner une ligne, écrire sa prédiction, puis avancer dans les 7 étapes.
+Mission : sélectionner une ligne, écrire sa prédiction, puis avancer dans les 7 étapes. Une carte distingue le parcours des 9 ateliers, les 6 échelles du code et les étapes de la mission.
 Sources & AST : 28 unités couvrant 12 fichiers, 1 660 nœuds extraits par le parseur TypeScript 5.8.3.
 Micro-banc : find, map, filter, formatDate et copie de formulaire. Calculs JS sur des données isolées.
+Palier guidé : prédire l’effet d’un ID présent ou absent sans modifier le code ni la collection. Les analogies mécaniques se consultent à la demande.
 Carnet : notes locales et export JSON. Selon le navigateur, le stockage local peut être bloqué à file:// ; utiliser localhost si nécessaire, et exporter les notes.
 Les 8 ateliers V0.2 restent accessibles.
 
@@ -25,3 +26,7 @@ base-v02.html est le socle ; addon.css et addon.js sont le nouvel atelier ; cata
 
 VÉRIFICATIONS
 Syntaxe JS, absence de diagnostics de parsing sur les fragments, navigation des 9 ateliers, mission complète et révélation conditionnelle, inspection AST, expériences find absent/map/handleChange, export carnet : testés avec Chromium en chargeant le HTML en mémoire. L'ouverture directe du fichier et le stockage persistant après rechargement n'ont pas pu être vérifiés dans l'environnement de test, qui bloque la navigation ; aucun build du vrai projet Next.js n'a été exécuté.
+
+
+AMÉLIORATION PÉDAGOGIQUE
+L’interface distingue le parcours des ateliers, les échelles d’analyse du code et les étapes de mission. Les analogies mécaniques sont facultatives. Le palier guidé fait varier un ID et demande une prédiction avant d’afficher le résultat. Ces ajouts doivent être rejoués dans la recette navigateur avant publication.
