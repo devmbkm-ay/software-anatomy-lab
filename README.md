@@ -47,7 +47,7 @@ TypeScript 5.8.3 est utilisé pour parser les fragments. `npm run build` régén
 
 Observer → prédire → disséquer → expérimenter → expliquer → reconstruire.
 
-Mission 001 : du clic sur une ligne à l'affichage du DetailDrawer. L’atelier 09 explicite trois repères : le parcours des neuf ateliers, les six échelles du code (atome, expression, fonction, composant, interaction, système) et les sept étapes de la mission. Les analogies mécaniques sont facultatives et ouvertes à la demande. Un palier guidé permet de prédire puis observer l’effet d’un identifiant trouvé ou absent.
+Mission 001 : du clic sur une ligne à l'affichage du DetailDrawer. L’atelier 09 explicite trois repères : le parcours des neuf ateliers, les six échelles du code (atome, expression, fonction, composant, interaction, système) et les sept étapes de la mission. Les analogies mécaniques sont facultatives et ouvertes à la demande. Un palier guidé permet de prédire puis observer l’effet d’un identifiant trouvé ou absent. La mission propose aussi une simulation interactive du flux de données : actions répétées ou ID arbitraire, état sélectionné, résultat dérivé et réaction du détail. Elle modélise le snapshot avec des données fictives ; le runtime React de Jobboard n’est pas exécuté.
 
 ## Provenance et confidentialité
 

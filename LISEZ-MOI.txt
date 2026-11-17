@@ -11,7 +11,7 @@ ATELIER 09
 Mission : sélectionner une ligne, écrire sa prédiction, puis avancer dans les 7 étapes. Une carte distingue le parcours des 9 ateliers, les 6 échelles du code et les étapes de la mission.
 Sources & AST : 28 unités couvrant 12 fichiers, 1 660 nœuds extraits par le parseur TypeScript 5.8.3.
 Micro-banc : find, map, filter, formatDate et copie de formulaire. Calculs JS sur des données isolées.
-Palier guidé : prédire l’effet d’un ID présent ou absent sans modifier le code ni la collection. Les analogies mécaniques se consultent à la demande.
+Palier guidé : prédire l’effet d’un ID présent ou absent sans modifier le code ni la collection. Le flux interactif montre chaque réaction du modèle à des actions répétées ou à un ID arbitraire. Il s’agit d’une simulation locale du snapshot, pas du runtime React de Jobboard. Les analogies mécaniques se consultent à la demande.
 Carnet : notes locales et export JSON. Selon le navigateur, le stockage local peut être bloqué à file:// ; utiliser localhost si nécessaire, et exporter les notes.
 Les 8 ateliers V0.2 restent accessibles.
 
