@@ -1,6 +1,8 @@
 from pathlib import Path
 import re,json,zipfile,base64
 p=Path(__file__).resolve().parent;base=(p/'base-v02.html').read_text();css=(p/'addon.css').read_text();js=(p/'addon.js').read_text();cat=(p/'catalog.json').read_text()
+css += '\n' + (p/'function-dynamics.css').read_text()
+js += '\n' + (p/'function-dynamics.js').read_text()
 s=base.replace('</style>', '\n'+css+'\n</style>',1).replace('Jobboard V0.2','Jobboard V0.3',1).replace('SIMULATION LOCALE · V0.2','SNAPSHOT GITHUB · V0.3',1)
 s=s.replace("['inspect','08','X-Ray · Dissection']];","['inspect','08','X-Ray · Dissection'],['sourceLab','09','Source & Atomic Lab']];",1)
 s=s.replace("'Explore les atomes, les fonctions et le dashboard fidèle à la capture.'];","'Explore les atomes, les fonctions et le dashboard fidèle à la capture.','Étudie le vrai code, son AST, et prédis le trajet d’une interaction.'];",1)
