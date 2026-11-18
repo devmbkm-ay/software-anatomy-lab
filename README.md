@@ -4,6 +4,8 @@
 
 Observe. Predict. Dissect. Experiment. Rebuild.
 
+🌐 **[Accéder au laboratoire en ligne](https://software-anatomy-lab-sbft.vercel.app/)** — version déployée sur Vercel.
+
 Laboratoire personnel d'apprentissage de l'ingénierie logicielle par la dissection, la rétro-ingénierie et l'expérimentation. Jobboard constitue le premier cas d'étude. Ce dépôt est indépendant de Jobboard.
 
 ## Démarrage rapide
